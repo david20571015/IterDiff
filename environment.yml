@@ -1,0 +1,22 @@
+name: iterdiff
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - pytorch-cuda=12.1
+  - torchvision
+  - diffusers
+  - matplotlib
+  - tqdm
+  - ipykernel
+  - ruff
+  - ipywidgets
+  - transformers
+  - accelerate
+  - einops
+  - pillow
+  - torchmetrics
